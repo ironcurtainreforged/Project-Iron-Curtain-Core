@@ -1,0 +1,21 @@
+GameEntity : "{3762304D845BF99D}Prefabs/Characters/Uniforms/M1936_Wool_Pants.et" {
+ coords 125.643 1 128.279
+}
+GenericEntity : "{595FC169176272FB}Prefabs/Characters/Vests/Vest_ALICE/Variants/Webbing_BAR.et" {
+ coords 124.465 1 128.819
+}
+GameEntity : "{A8FE7B7C162B6C52}Prefabs/Characters/Uniforms/Jacket_US_M1941.et" {
+ components {
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornMaterialsOverride {
+    "{16E9C1E26B5CF9E0}Assets/Characters/Uniforms/Tops/M1941_Jacket/Data/m37.emat"
+    "{79BFA3638D3041FC}Assets/Characters/Uniforms/Tops/M1941_Jacket/Data/m41.emat"
+    "{F38824EE25A61F6B}Assets/Characters/Uniforms/Tops/M1941_Jacket/Data/swatter.emat"
+   }
+  }
+ }
+ coords 126.113 1 128.393
+}
+GenericEntity : "{F95604AC7ACCCC12}Prefabs/Characters/Footwear/JungleBoots_01/M1917_Gaitors.et" {
+ coords 126.724 1 128.279
+}

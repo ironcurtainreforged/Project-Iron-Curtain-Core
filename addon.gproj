@@ -1,0 +1,8 @@
+GameProject {
+ ID "IronCurtainCore"
+ GUID "684208E5B5AED13C"
+ TITLE "Iron Curtain - Core"
+ Dependencies {
+  "5D0551624969C92E" "58D0FB3206B6F859"
+ }
+}

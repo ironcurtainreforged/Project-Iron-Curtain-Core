@@ -1,0 +1,50 @@
+GenericEntity : "{80C8C9227D2C7CF5}Prefabs/Characters/Core/Footwear_Base.et" {
+ ID "5244C46FA7C5E08C"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{68421EE979E39594}" {
+    ItemDisplayName UIInfo "{68421EE979E395EC}" {
+     Name "test"
+     Description "test"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{68421EE979E395E8}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 2500
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{68421EE979E395E0}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2.5
+      FOV 10
+      PreviewModel "{A0E0E888D2DA4D6C}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5244C34DEE7DBFB4}" {
+   Object "{A0E0E888D2DA4D6C}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item.xob"
+  }
+  BaseLoadoutClothComponent "{5244C34DEE7DBFB2}" {
+   AreaType LoadoutBootsArea "{68421EE979E3951F}" {
+   }
+   WornModel "{4AF2B36CB2598C1E}Assets/Characters/Footwear/M1917_Gaitors/Gaitors.xob"
+   ItemModel "{A0E0E888D2DA4D6C}Assets/Characters/Footwear/JungleBoots_01/JungleBoots_01_item.xob"
+   SoundInt 630
+   OverrideMeshesToHide {
+    "Foot_L" "Foot_R"
+   }
+  }
+  ActionsManagerComponent "{5244C34DEE7DBF9F}" {
+   ActionContexts {
+    UserActionContext "{5244C34DEE7DBF83}" {
+     Position PointInfo "{5244C34DEE7DBF80}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+  }
+ }
+ coords 1212.622 39.094 2839.711
+}
