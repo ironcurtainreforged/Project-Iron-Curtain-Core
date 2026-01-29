@@ -3,10 +3,10 @@ GenericEntity : "{8B55F8686833B12B}Prefabs/Weapons/Core/FragGrenade_Base.et" {
  components {
   InventoryItemComponent "{51FAA3E3CF6F087A}" {
    Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
-    CommonItemType "Vest_Gernade_Slot"
+    CommonItemType "ARMA_GRENADE"
    }
   }
-  MY_ArsenalSpawnRefreshComponent "{68557ED9D12C4B26}" {
+  MY_ArsenalSpawnRefreshComponent "{686F64AE5BAE1391}" {
   }
  }
 }

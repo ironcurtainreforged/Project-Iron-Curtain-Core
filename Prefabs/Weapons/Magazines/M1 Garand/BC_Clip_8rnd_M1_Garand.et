@@ -1,3 +1,14 @@
 GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
  ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    CommonItemType "Vest_Extra_Slot"
+   }
+  }
+  MY_ArsenalSpawnRefreshComponent "{68557ED98471E773}" {
+  }
+  MY_MagazineAmmoRefreshComponent "{68560269E65C7F8B}" {
+  }
+ }
 }
